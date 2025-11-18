@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог | 100Nout Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="atelier-header">
+    <div class="logo">100Nout <span>Atelier</span></div>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html" class="active">Каталог</a>
+      <a href="product.html">Продукт</a>
+      <a href="info.html">Инфо</a>
+    </nav>
+    <button class="ghost-btn">Написать</button>
+    <button class="nav-toggle" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero hero--compact">
+      <div>
+        <p class="eyebrow">Каталог Atelier</p>
+        <h1>Редактор ноутбуков под ваши сценарии.</h1>
+        <p class="lead">Создаём подборки по задачам. Каждую модель можно протестировать в шоуруме или на выезде. Цены фиксируются до встречи.</p>
+      </div>
+      <div class="hero__visual">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Коллекция ноутбуков">
+      </div>
+    </section>
+
+    <section class="filters" aria-label="Фильтры каталога">
+      <button class="chip">Creator</button>
+      <button class="chip">Mobility</button>
+      <button class="chip">Performance</button>
+      <button class="chip">До 1,3 кг</button>
+      <button class="chip">OLED</button>
+      <button class="chip">RTX Studio</button>
+      <button class="chip">Intel vPro</button>
+      <button class="chip">NPU 40 TOPS</button>
+    </section>
+
+    <section class="reservation" aria-label="Резервирование без оплаты">
+      <div>
+        <p class="eyebrow">Как забронировать</p>
+        <h2>Мы закрепим ноутбук за вами и подготовим документы.</h2>
+        <p>Отправьте список моделей любым способом — менеджер подтвердит наличие, оформит договор и договорится о времени визита.</p>
+      </div>
+      <div class="reservation__grid">
+        <article>
+          <strong>Телефон</strong>
+          <a href="tel:+375291112211">+375 29 111 22 11</a>
+          <span>пн—сб · 10:00—21:00</span>
+        </article>
+        <article>
+          <strong>Telegram</strong>
+          <a href="https://t.me/hundrednout" target="_blank" rel="noreferrer">@hundrednout</a>
+          <span>Ответ за 5 минут</span>
+        </article>
+        <article>
+          <strong>Email</strong>
+          <a href="mailto:care@100nout.by">care@100nout.by</a>
+          <span>Пришлём счёт и договор</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog-grid">
+      <article class="product-card">
+        <div class="badge">Новая партия</div>
+        <h3>Dell XPS 14 Creator Edition</h3>
+        <p>Ultra 9 · RTX 4050 · 3K OLED · 1,4 кг</p>
+        <strong>4 750 BYN</strong>
+        <ul>
+          <li>В наличии 4 шт.</li>
+          <li>Резерв на 48 часов</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="product.html">Подробнее</a>
+          <button class="ghost-btn reserve-btn" data-model="Dell XPS 14 Creator">Забронировать</button>
+        </div>
+        <small class="product-note">Документы подготовим заранее.</small>
+      </article>
+      <article class="product-card">
+        <h3>HP ZBook Fury 16</h3>
+        <p>DreamColor · RTX 5000 Ada · ISV</p>
+        <strong>7 900 BYN</strong>
+        <ul>
+          <li>Паспорт калибровки включён</li>
+          <li>Подписка от 990 BYN/мес</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="catalog.html">Сравнить</a>
+          <button class="ghost-btn reserve-btn" data-model="HP ZBook Fury 16">Зафиксировать цену</button>
+        </div>
+        <small class="product-note">Оплата в шоуруме.</small>
+      </article>
+      <article class="product-card">
+        <h3>MSI Prestige 13 AI</h3>
+        <p>990 г · Intel Ultra 7 · Wi-Fi 7</p>
+        <strong>3 150 BYN</strong>
+        <ul>
+          <li>Опция брендинга корпуса</li>
+          <li>Доставка курьером</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="product.html">Подробнее</a>
+          <button class="ghost-btn reserve-btn" data-model="MSI Prestige 13 AI">Самовывоз</button>
+        </div>
+        <small class="product-note">Готово к выдаче сегодня.</small>
+      </article>
+      <article class="product-card">
+        <h3>Acer Swift Go 14</h3>
+        <p>OLED 120 Гц · Intel Arc · 32 ГБ</p>
+        <strong>2 990 BYN</strong>
+        <ul>
+          <li>Серебристый и чёрный</li>
+          <li>Рассрочка 0-0-12</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="catalog.html">Сравнить</a>
+          <button class="ghost-btn reserve-btn" data-model="Acer Swift Go 14">Забронировать</button>
+        </div>
+        <small class="product-note">Звонок менеджера за 10 минут.</small>
+      </article>
+      <article class="product-card">
+        <h3>Gigabyte Aero 16 OLED</h3>
+        <p>HDR OLED · RTX 4070 · 64 ГБ</p>
+        <strong>5 990 BYN</strong>
+        <ul>
+          <li>Калибровка X-Rite</li>
+          <li>Демо в XR-комнате</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="product.html">Подробнее</a>
+          <button class="ghost-btn reserve-btn" data-model="Gigabyte Aero 16 OLED">Запросить демо</button>
+        </div>
+        <small class="product-note">Подготовка 24 часа.</small>
+      </article>
+      <article class="product-card">
+        <h3>Framework Laptop 16</h3>
+        <p>Модульная сборка · Ryzen 9 · Radeon 7700S</p>
+        <strong>4 650 BYN</strong>
+        <ul>
+          <li>Конструктор портов</li>
+          <li>Сервисная мастерская</li>
+        </ul>
+        <div class="product-actions">
+          <a class="secondary-btn" href="product.html">Подробнее</a>
+          <button class="ghost-btn reserve-btn" data-model="Framework Laptop 16">Собрать</button>
+        </div>
+        <small class="product-note">Менеджер поможет выбрать модули.</small>
+      </article>
+    </section>
+
+    <section class="offline-info">
+      <article>
+        <h3>Выдача</h3>
+        <p>Шоурум или выезд курьера с терминалом. Проверяете устройство, подписываете документы и только после этого оплачиваете.</p>
+      </article>
+      <article>
+        <h3>Документы</h3>
+        <p>Готовим договор, накладную и акт заранее. Для юрлиц доступна рассрочка и безналичный расчёт.</p>
+      </article>
+      <article>
+        <h3>Поддержка</h3>
+        <p>Собственный инженерный чат, подменный фонд и апгрейды без простоя команды.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 100Nout Atelier · Каталог обновляется ежедневно</p>
+  </footer>
+</body>
+</html>

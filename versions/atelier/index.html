@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100Nout Atelier | Бутик ноутбуков без онлайн-оплаты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="atelier-header">
+    <div class="logo">100Nout <span>Atelier</span></div>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="index.html" class="active">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="product.html">Продукт</a>
+      <a href="info.html">Инфо</a>
+    </nav>
+    <button class="ghost-btn">Консультация</button>
+    <button class="nav-toggle" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">offline-first · Минск</p>
+        <h1>Ателье ноутбуков для команд, которые ценят живой сервис.</h1>
+        <p class="lead">Мы подбираем модели под ваши процессы, закрепляем устройство и готовим документы до визита. Никаких онлайн-оплат — только персональная выдача.</p>
+        <div class="hero__actions">
+          <a class="primary-btn" href="catalog.html">Смотреть коллекцию</a>
+          <button class="text-btn">
+            <span>Запросить тест-драйв</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <dl class="metrics">
+          <div>
+            <dt>1800+</dt>
+            <dd>живых конфигураций в шоуруме</dd>
+          </div>
+          <div>
+            <dt>12 ч</dt>
+            <dd>на подготовку к выдаче</dd>
+          </div>
+          <div>
+            <dt>5 городов</dt>
+            <dd>точек выдачи по СНГ</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero__visual">
+        <div class="tag-card">
+          <p>Премьера недели</p>
+          <strong>Razer Blade 16 Studio</strong>
+          <span>закрепляем за вами на 48 часов</span>
+        </div>
+        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80" alt="Современный ноутбук на столе">
+        <div class="note-card">Оплата только при получении и проверке.</div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Почему 100Nout Atelier">
+      <article>
+        <h3>Куратор сервиса</h3>
+        <p>Закрепляем менеджера, который ведёт вас от брифа до апгрейда. В чат добавляем инженера и финансиста.</p>
+      </article>
+      <article>
+        <h3>Аналитика нагрузки</h3>
+        <p>Собираем метрики по монтажу, коду, 3D и формируем таблицу эффективности для команды.</p>
+      </article>
+      <article>
+        <h3>Офлайн only</h3>
+        <p>Фиксируем цену, бронируем устройство и выдаём в шоуруме. Платёж — наличные, карта или счёт.</p>
+      </article>
+    </section>
+
+    <section class="collection" aria-labelledby="collection-title">
+      <header>
+        <p class="eyebrow">Витрина Atelier</p>
+        <h2 id="collection-title">Редко встречающиеся модели и конфигурации под брендинг.</h2>
+        <p>Каждая позиция проходит предпродажную калибровку дисплея и стресс-тест автономности. Доступно резервирование без предоплаты.</p>
+      </header>
+      <div class="collection-grid">
+        <article class="product-card">
+          <div class="badge">В наличии</div>
+          <h3>Lenovo Yoga Book 9i Dual</h3>
+          <p>Двойной OLED · Intel Ultra 7 · 32 ГБ RAM</p>
+          <strong>5 450 BYN</strong>
+          <ul>
+            <li>Подготовка за 6 часов</li>
+            <li>Футляр с вашим логотипом</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button class="ghost-btn reserve-btn" data-model="Lenovo Yoga Book 9i">Забронировать визит</button>
+          </div>
+          <small class="product-note">Менеджер подтвердит слот звонком.</small>
+        </article>
+        <article class="product-card">
+          <div class="badge">Предзаказ</div>
+          <h3>Asus ProArt PX13</h3>
+          <p>Ryzen AI 9 · RTX 4070 · 2 в 1</p>
+          <strong>4 990 BYN</strong>
+          <ul>
+            <li>XR-демо в шоуруме</li>
+            <li>Подписка от 690 BYN/мес</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="catalog.html">Сравнить</a>
+            <button class="ghost-btn reserve-btn" data-model="Asus ProArt PX13">Зафиксировать цену</button>
+          </div>
+          <small class="product-note">Сохраняем условия 72 часа.</small>
+        </article>
+        <article class="product-card">
+          <div class="badge">Demo</div>
+          <h3>MacBook Pro 16 M4 Max</h3>
+          <p>128 ГБ RAM · NPU 38 ядер · 2 ТБ SSD</p>
+          <strong>9 990 BYN</strong>
+          <ul>
+            <li>Подменный фонд</li>
+            <li>Калибровка под DaVinci</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Сервис</a>
+            <button class="ghost-btn reserve-btn" data-model="MacBook Pro 16 M4 Max">Забронировать тест</button>
+          </div>
+          <small class="product-note">Демо-сессия 60 минут.</small>
+        </article>
+      </div>
+      <p class="offline-hint">⚑ Покупка завершается только в шоуруме или при выезде курьера с терминалом.</p>
+    </section>
+
+    <section class="process" aria-label="Как происходит покупка">
+      <h2>Как мы работаем без онлайн заказа</h2>
+      <div class="process__steps">
+        <article>
+          <span>01</span>
+          <h3>Бриф</h3>
+          <p>Получаем задачи, текущий парк, требования по бренду и логистике.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Резерв</h3>
+          <p>Подготавливаем 2–3 конфигурации, закрепляем устройства и документы.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Выдача</h3>
+          <p>Проверяете на месте, подписываете бумаги и оплачиваете удобным способом.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="studio" aria-label="Шоурумы">
+      <div>
+        <p class="eyebrow">Шоурумы</p>
+        <h2>Пространства с атмосферой дизайн-студии.</h2>
+        <p>Минск, Вильнюс, Варшава, Алматы и Тбилиси. В каждом — зона тихих тестов, XR-демо и кофейня.</p>
+      </div>
+      <div class="studio-grid">
+        <article>
+          <h3>Минск · Сурганова, 14</h3>
+          <p>пн—сб 10:00—21:00 · +375 29 111 22 11</p>
+          <button class="ghost-btn reserve-btn" data-model="Визит Минск">Забронировать визит</button>
+        </article>
+        <article>
+          <h3>Варшава · Praga Studio</h3>
+          <p>ср—вс 11:00—20:00 · +48 22 123 45 67</p>
+          <a href="mailto:hello@100nout.by" class="text-link">Запросить маршрут</a>
+        </article>
+        <article>
+          <h3>Алматы · Esentai Lab</h3>
+          <p>ежедневно 12:00—22:00 · +7 777 000 44 55</p>
+          <a href="tel:+77770004455" class="text-link">Позвонить</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <header>
+        <p class="eyebrow">Отзывы</p>
+        <h2>Команды выбирают нас за честные сроки и эстетику выдачи.</h2>
+      </header>
+      <div class="testimonials-grid">
+        <article>
+          <p>«Получили дизайнерскую подборку с брендированными накладками и готовыми профилями питания. Выдача заняла 15 минут.»</p>
+          <span>BRANDLAB · Минск</span>
+        </article>
+        <article>
+          <p>«Ателье помогло собрать мобильный парк для постановочных съёмок и зафиксировало цену до приезда всей команды.»</p>
+          <span>CinemaCraft · Вильнюс</span>
+        </article>
+        <article>
+          <p>«Важно, что оплата происходит после проверки — ни предоплаты, ни онлайн-эквайринга. Сервис взрослеет вместе с нами.»</p>
+          <span>Nordic Dev · Варшава</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>Запросите подборку с визитом в шоурум</h2>
+        <p>Напишите о задачах — подготовим конфигурации, документы и кофе. Оплата только после теста.</p>
+      </div>
+      <form class="cta__form">
+        <label>
+          <span>Имя</span>
+          <input type="text" placeholder="Александр" required>
+        </label>
+        <label>
+          <span>Команда</span>
+          <input type="text" placeholder="продакшн, dev, продажи" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" placeholder="you@company.com" required>
+        </label>
+        <button type="submit" class="primary-btn">Получить подборку</button>
+        <small>Мы перезвоним и договоримся о времени визита.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>100Nout Atelier</strong>
+      <p>Бутик-подход к портативной технике.</p>
+    </div>
+    <div>
+      <p>Минск · ул. Сурганова, 14</p>
+      <p>+375 29 111 22 11</p>
+    </div>
+    <div class="footer-links">
+      <a href="catalog.html">Каталог</a>
+      <a href="info.html">Инфо</a>
+      <a href="mailto:care@100nout.by">care@100nout.by</a>
+    </div>
+  </footer>
+</body>
+</html>
