@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100Nout | Технологии, которые вдохновляют</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">100Nout<span>.aurora</span></div>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="index.html" class="active">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="product.html">Продукт</a>
+      <a href="info.html">О нас</a>
+    </nav>
+    <button class="ghost-btn">Войти</button>
+    <button class="nav-toggle" aria-label="Меню">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Лаборатория портативной мощности</p>
+        <h1>Ноутбуки нового поколения для гибких команд и тех, кто успевает всё.</h1>
+        <p class="lead">Мы адаптируем модели под ваш сценарий — от творческого марафона до инженерных расчётов. Поддержка 24/7, доставка за 48 часов.</p>
+        <div class="hero__actions">
+          <a href="catalog.html" class="primary-btn">Найти ноутбук</a>
+          <button class="text-btn">
+            <span>Консультация эксперта</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <dl class="hero__metrics">
+          <div>
+            <dt>3200+</dt>
+            <dd>доступных конфигураций</dd>
+          </div>
+          <div>
+            <dt>4.9/5</dt>
+            <dd>средняя оценка сервиса</dd>
+          </div>
+          <div>
+            <dt>18 лет</dt>
+            <dd>в подборе техники</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero__visual">
+        <div class="floating-card">
+          <p>Гибкая подписка</p>
+          <span>Обновление каждые 12 месяцев</span>
+        </div>
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="Современный ноутбук на рабочем столе">
+        <div class="badge">Сделано для гибридной работы</div>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article>
+        <h3>Точная персонализация</h3>
+        <p>Анализируем рабочие привычки и предлагаем конфигурацию, которая выдержит нагрузку и останется лёгкой.</p>
+      </article>
+      <article>
+        <h3>Честный апгрейд</h3>
+        <p>Выкуп старой модели и мгновенная скидка на новую. Без скрытых комиссий.</p>
+      </article>
+      <article>
+        <h3>Премиальный сервис</h3>
+        <p>Инженерные проверки перед выдачей и удалённая диагностика в один клик.</p>
+      </article>
+    </section>
+
+    <section class="highlight">
+      <div class="highlight__text">
+        <h2>Каталог для тех, кто создаёт будущее</h2>
+        <p>Собрали подборку ноутбуков, которые проходят стресс-тесты на шум, нагрев и автономность. Каждая модель имеет живое демо в шоуруме.</p>
+        <ul>
+          <li>Серии Creator, Mobility, Performance</li>
+          <li>Гибкие условия рассрочки и подписки</li>
+          <li>Гарантия замены в течение 48 часов</li>
+        </ul>
+        <a class="secondary-btn" href="catalog.html">Открыть каталог</a>
+      </div>
+      <div class="highlight__panel">
+        <div class="panel-card">
+          <p>Коллаборация с дизайнерскими студиями</p>
+          <span>Согласованные подборки под брендинг и среду</span>
+        </div>
+        <div class="panel-card accent">
+          <p>Премьера недели</p>
+          <strong>Lenovo Yoga Pro X Carbon</strong>
+          <span>керамическое покрытие, 32ГБ RAM</span>
+          <a href="product.html">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stories">
+      <header>
+        <p class="eyebrow">Опыт клиентов</p>
+        <h2>Бренды доверяют 100Nout, потому что мы думаем стратегически.</h2>
+      </header>
+      <div class="stories__list">
+        <article>
+          <p>«Запустили новую студию архитектурной визуализации — команда сразу получила технику, которая тянет 8K сцены без шума».</p>
+          <span>Atelier DOT · Минск</span>
+        </article>
+        <article>
+          <p>«Понравились метрики подбора: вместо стандартного каталога получили три сценария на выбор и тест-драйв в офисе».</p>
+          <span>Product HUB · Гданьск</span>
+        </article>
+        <article>
+          <p>«Сервис реагирует быстрее поддержки производителя, а обновление парка проходит без простоя команды».</p>
+          <span>CloudWalk · Вильнюс</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>Получите подборку под ваш стиль работы</h2>
+        <p>Расскажите нам о задачах, и мы соберём ноутбук, который успевает вместе с вами.</p>
+      </div>
+      <form class="cta__form">
+        <label>
+          <span>Имя</span>
+          <input type="text" placeholder="Мария" required>
+        </label>
+        <label>
+          <span>Тип задач</span>
+          <input type="text" placeholder="3D, код, монтаж" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" placeholder="you@example.com" required>
+        </label>
+        <button type="submit" class="primary-btn">Получить рекомендации</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>100Nout</strong>
+      <p>Технологии с человеческим отношением.</p>
+    </div>
+    <div>
+      <p>+375 29 000 00 00</p>
+      <p>ул. Сурганова, 14 · Минск</p>
+    </div>
+    <div class="footer-links">
+      <a href="catalog.html">Каталог</a>
+      <a href="info.html">О компании</a>
+      <a href="mailto:care@100nout.by">care@100nout.by</a>
+    </div>
+  </footer>
+</body>
+</html>
