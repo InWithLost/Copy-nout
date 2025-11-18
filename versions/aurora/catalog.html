@@ -47,45 +47,131 @@
       <button class="ghost-btn">M2 / Ryzen 9</button>
     </section>
 
+      <section class="reservation-panel" aria-label="Резервирование без онлайн-оплаты">
+        <div>
+          <p class="eyebrow">Как бронировать</p>
+          <h2>Закрепите устройство за собой, а оплатите в шоуруме.</h2>
+          <p>Отправьте модель менеджеру, мы подтвердим наличие, подготовим документы и удержим цену до визита.</p>
+        </div>
+        <div class="reservation-panel__card">
+          <strong>Телефон</strong>
+          <a href="tel:+375290000000">+375 29 000 00 00</a>
+          <span>пн—сб · 10:00—21:00</span>
+        </div>
+        <div class="reservation-panel__card">
+          <strong>Messenger</strong>
+          <a href="https://t.me/hundrednout" target="_blank" rel="noreferrer">t.me/hundrednout</a>
+          <span>Ответ за 5 минут</span>
+        </div>
+        <div class="reservation-panel__card">
+          <strong>Email</strong>
+          <a href="mailto:care@100nout.by">care@100nout.by</a>
+          <span>Отправим счёт и договор</span>
+        </div>
+      </section>
+
     <section class="catalog-grid">
       <article class="product-card">
         <div class="product-status">Новинка недели</div>
         <h3>Zenbook Studio 16 OLED</h3>
         <p>16" · Ryzen 9 · RTX 4070 · 32 ГБ RAM</p>
         <strong>4 990 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>В наличии: Минск, Гомель</li>
+            <li>Выдача за 24 часа</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="Zenbook Studio 16 OLED">Забронировать</button>
+          </div>
+          <small class="product-note">Подтвердим бронь звонком.</small>
       </article>
       <article class="product-card">
         <h3>ThinkPad X1 Carbon Gen 11</h3>
         <p>14" · Intel vPro · 1,1 кг · 18 часов</p>
         <strong>4 350 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>В наличии 5 шт.</li>
+            <li>Корпоративная гарантия 36 мес.</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="ThinkPad X1 Carbon Gen 11">Зафиксировать цену</button>
+          </div>
+          <small class="product-note">Оплата после теста в шоуруме.</small>
       </article>
       <article class="product-card">
         <h3>MacBook Pro 14 M3 Max</h3>
         <p>Micro-LED · 64 ГБ RAM · 2ТБ SSD</p>
         <strong>8 790 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>Демо-юнит + новые в коробке</li>
+            <li>Подписка от 890 BYN/мес</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="MacBook Pro 14 M3 Max">Запросить демонстрацию</button>
+          </div>
+          <small class="product-note">Подтверждение без предоплаты.</small>
       </article>
       <article class="product-card">
         <h3>Razer Blade 15 Studio</h3>
         <p>QHD 240 Гц · Nvidia Studio · 1,9 кг</p>
         <strong>6 200 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>Запас: 3 шт. · шоурум</li>
+            <li>Тонна стиля и подсветки</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="Razer Blade 15 Studio">Забронировать слот</button>
+          </div>
+          <small class="product-note">Подготовка к выдаче 6 часов.</small>
       </article>
       <article class="product-card">
         <h3>MSI Prestige 13 Evo</h3>
         <p>13" · 990 г · Wi-Fi 7 · Intel Core Ultra</p>
         <strong>3 250 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>Опция корпоративного брендинга</li>
+            <li>eSIM + 5G модем</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="MSI Prestige 13 Evo">Забрать из шоурума</button>
+          </div>
+          <small class="product-note">Самовывоз сегодня после 17:00.</small>
       </article>
       <article class="product-card">
         <h3>HP ZBook Firefly</h3>
         <p>DreamColor · ISV сертификация · LTE</p>
         <strong>4 050 BYN</strong>
-        <a href="product.html">Подробнее</a>
+          <ul class="product-meta">
+            <li>ISV сертификаты Autodesk, Solidworks</li>
+            <li>LTE eSIM</li>
+          </ul>
+          <div class="product-actions">
+            <a class="secondary-btn" href="product.html">Подробнее</a>
+            <button type="button" class="ghost-btn reserve-btn" data-model="HP ZBook Firefly">Запросить оффер</button>
+          </div>
+          <small class="product-note">Счёт выставляем в течение часа.</small>
       </article>
     </section>
+
+      <section class="offline-banner">
+        <div>
+          <h3>Самовывоз или доставка</h3>
+          <p>Заберите ноутбук в шоуруме или закажите курьерскую доставку с оплатой по терминалу на месте.</p>
+        </div>
+        <div>
+          <h3>Документы</h3>
+          <p>Готовим накладные, договор и акт заранее, чтобы вы просто подписали их при выдаче.</p>
+        </div>
+        <div>
+          <h3>Техподдержка</h3>
+          <p>Отдельная линия сервиса для клиентов каталога. Реагируем за 15 минут.</p>
+        </div>
+      </section>
   </main>
 
   <footer class="site-footer">
