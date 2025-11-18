@@ -14,3 +14,20 @@ form?.addEventListener('submit', (event) => {
   button.disabled = true;
   button.classList.add('ghost');
 });
+
+const reserveButtons = document.querySelectorAll('.reserve-btn');
+reserveButtons.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.state === 'sent') return;
+    btn.dataset.state = 'sent';
+    btn.textContent = 'Бронь отправлена';
+    btn.classList.add('success');
+    btn.setAttribute('aria-pressed', 'true');
+    const card = btn.closest('.product-card');
+    const note = card?.querySelector('.product-note');
+    const model = btn.dataset.model;
+    if (note && model) {
+      note.textContent = `${model} ожидает подтверждения менеджера.`;
+    }
+  });
+});
